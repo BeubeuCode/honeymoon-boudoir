@@ -1,0 +1,36 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: white;
+    background-color: black;
+    font-family: 'Lato', sans-serif;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.centerbtn {
+    display: block;
+    margin: 0 auto;
+}
+
+#paragrapheCouverture {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.btn-danger, .btn-danger:hover, .btn-danger:active, .btn-danger:visited, .bg-danger {
+    background-color: #B13348 !important;
+}
+
+footer {
+    color: black;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
